@@ -5,12 +5,11 @@
 * **Email**: Shplendor1@gmail.com
 * **GitHub**: [Annoyingpanthera](https://github.com/Annoyingpanthera)
 ## **About Me**
-_I am 25 years old, originally from the city of Soligorsk, in Poland for about a year. I do not have work experience. I was engaged in self-education in Python and C #, I want to get as much knowledge and practice as possible in order to become a qualified IT specialist in order to be useful and raise my social status._
-
-    * **Hardworking**
-    * **Responsible**
-    * **Purposeful** 
-    * **Creative**
+_I am 25 years old, originally from the city of Soligorsk, in Poland for about a year. I do not have work experience. I was engaged in self-education in Python and C #, I want to get as much knowledge and practice as possible in order to become a qualified IT specialist in order to be useful and raise my social status._   
+* **Hardworking**
+* **Responsible**
+* **Purposeful** 
+* **Creative**
 ## **Skills**
 * Python basic
 * C# basic
