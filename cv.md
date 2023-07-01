@@ -30,4 +30,4 @@ _I am 25 years old, originally from the city of Soligorsk, in Poland for about a
 * Udemy The Complete Python Course From Zero To Hero
 * Base course C# [Code Basics] (code-basics.com)
 ## **English**
-**A1** - School and university knowledge of English
+**B1** - School and university knowledge of English

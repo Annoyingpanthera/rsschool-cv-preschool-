@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .section {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .section h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .section .subtitle {
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #555;
+    }
+    .section .date {
+      font-style: italic;
+      color: #777;
+    }
+    .section ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Resume</h1>
+  
+  <div class="section">
+    <h2>Personal Information</h2>
+    <p><span class="subtitle">Name:</span> Andrei Splendzer</p>
+    <p><span class="subtitle">Email:</span> Shplendor@gmail.com</p>
+    <p><span class="subtitle">Phone:</span> +48 539 950 328</p>
+  </div>
+  
+  <div class="section">
+    <h2>Education</h2>
+    <p><span class="subtitle">University:</span> Baranovichi State University</p>
+    <p><span class="subtitle">Degree:</span> Engineer </p>
+    <p class="date">Years: Years: 2014-2019 </p>
+  </div>
+ 
+  <div class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python basic</li>
+      <li>C# basic</li>
+    </ul>
+  </div>
+  
+</body>
+</html>
