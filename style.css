@@ -1,163 +1,102 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Andrei Splenzder</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-            background-image: url('background.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            color: #333;
-        }
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+}
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
 
-        h1 {
-            text-align: center;
-            margin-bottom: 20px;
-            color: #444;
-            font-family: 'Pacifico', cursive;
-        }
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+    font-family: 'Pacifico', cursive;
+}
 
-        h2 {
-            margin-bottom: 10px;
-            color: #555;
-            font-family: 'Roboto', sans-serif;
-        }
+h2 {
+    margin-bottom: 10px;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+}
 
-        .section {
-            margin-bottom: 30px;
-        }
+.section {
+    margin-bottom: 30px;
+}
 
-        .sub-heading {
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
+.sub-heading {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
 
-        .profile-picture {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin: 0;
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            background-color: #ccc;
-            background-size: cover;
-            background-position: center;
-        }
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ccc;
+    background-size: cover;
+    background-position: center;
+}
 
-        .main-info {
-            margin-left: 200px;
-        }
+.main-info {
+    margin-left: 200px;
+}
 
-        .column {
-            display: flex;
-        }
+.column {
+    display: flex;
+}
 
-        .left-column {
-            flex: 1;
-        }
+.left-column {
+    flex: 1;
+}
 
-        .right-column {
-            flex: 1;
-        }
+.right-column {
+    flex: 1;
+}
 
-        .fade-in {
-            opacity: 0;
-            animation: fadeIn 1s forwards;
-        }
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
 
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="container fade-in">
-        <div class="column">
-            <div class="left-column">
-            <div class="profile-picture" style="background-image: url('andrej-splender.jpg');"></div>
-
-            </div>
-            <div class="right-column">
-                <h1>Andrei Splendzer</h1>
-
-                <div class="section">
-                    <h2>Contact Information</h2>
-                    <p><span class="sub-heading">Location:</span> Poland,Warshaw</p>
-                    <p><span class="sub-heading">Email:</span> ваш email</p>
-                    <p><span class="sub-heading">Телефон:</span> ваш телефон</p>
-                    <p><span class="sub-heading">LinkedIn:</span> ваш профиль на LinkedIn</p>
-                    <p><span class="sub-heading">GitHub:</span> ваш профиль на GitHub</p>
-                </div>
-
-                <div class="section">
-                <h2>About Me </h2>
-                <p><span class="sub-heading"></span> I am 25 years old, originally from the city of Soligorsk, in Poland for about a year. 
-                I do not have work experience. I was engaged in self-education in Python and C #, I want to get as much knowledge and practice as possible 
-                in order to become a qualified IT specialist in order to be useful and raise my social status</p>
-                <ul>
-                    <li>Hardworking</li>
-                    <li>Responsible</li>
-                    <li>Purposeful</li>
-                    <li>Creative</li>
-                </ul>
-            </div>
-
-            <div class="section">
-            <h2>Education</h2>
-            <p><span class="sub-heading">University:</span> Baranovichi State University</p>
-            <p><span class="sub-heading">CS50(https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)</p>
-            <p><span class="sub-heading">Udemy:</span> The Complete Python Course From Zero To Hero</p>
-            <p><span class="sub-heading">RSSchool:</span> JS/FE preschool 2023q2</p>
-        </div>
-
-        <div class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>Python Basic</li>
-                <li>C# basic</li>
-                <li>HTML5 basics</li>
-                <li>CSS basics</li>
-                <li>GitHub, git</li>        
-            </ul>
-        </div>
-    </div>
-    <div class="section">
-        <h2>Languages</h2>
-        <ul>
-            <li>English - B1</li>
-            <li>Polish - Basic</li>
-            <li>Belarusian - Intermediate</li>
-            <li>Russian - Native </li>      
-        </ul>
-    </div>
-</div>
-</body>
-</html>
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
