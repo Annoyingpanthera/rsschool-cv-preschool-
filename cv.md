@@ -29,7 +29,6 @@ _I am 25 years old, originally from the city of Soligorsk, in Poland for about a
 * [CS50](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
 * Udemy The Complete Python Course From Zero To Hero
 * Base course C# [Code Basics] (code-basics.com)
-* RS Schools Course «JavaScript/Front-end. Stage 0»
+* RS Schools Course «JavaScript/Front-end. Stage 0» https://app.rs.school/certificate/vp7jhg4j
 ## **English**
-**B1** - School and university knowledge of English[
-https://www.efset.org/cert/wgiKe1
+**B2** - Upper Intermediate https://www.efset.org/cert/wgiKe1
