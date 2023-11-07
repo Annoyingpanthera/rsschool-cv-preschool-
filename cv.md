@@ -31,5 +31,5 @@ _I am 25 years old, originally from the city of Soligorsk, in Poland for about a
 * Base course C# [Code Basics] (code-basics.com)
 * RS Schools Course «JavaScript/Front-end. Stage 0»
 ## **English**
-**B1** - School and university knowledge of English
-https://www.efset.org/score/quickcheck/74?source=EF%20SET&cid=ss011
+**B1** - School and university knowledge of English[
+https://www.efset.org/cert/wgiKe1
