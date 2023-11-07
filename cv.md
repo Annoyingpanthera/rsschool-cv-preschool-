@@ -5,7 +5,7 @@
 * **Email**: Shplendor1@gmail.com
 * **GitHub**: [Annoyingpanthera](https://github.com/Annoyingpanthera)
 ## **About Me**
-_I am 25 years old, originally from the city of Soligorsk, in Poland for about a year. I do not have work experience. I was engaged in self-education in Python and C #, I want to get as much knowledge and practice as possible in order to become a qualified IT specialist in order to be useful and raise my social status._   
+_I'm 26 years old and originally from the beautiful town of Soligorsk. Having lived in Poland for the past two years, I'm currently embarking on my journey in the IT world, although I lack practical work experience. My focus is directed towards my studies at RS School, where I'm delving deep into the realm of JavaScript. My aspirations and academic background drive me to pursue a high level of expertise in this field, with the ultimate goal of becoming a sought-after IT professional, making a meaningful impact in the ever-evolving landscape of technology._   
 * **Hardworking**
 * **Responsible**
 * **Purposeful** 
@@ -14,15 +14,21 @@ _I am 25 years old, originally from the city of Soligorsk, in Poland for about a
 * Python basic
 * C# basic
 ## **Code Example**
-``` Python
-    while len(series) < n:
-        if len(series) == 1:
-            series.append(1)
-        else:
-            series.append(series[-1] + series[-2])
-    for i in range(len(series)):  # Convert the numbers to strings
-        series[i] = str(series[i])
-    return(', '.join(series))  # Return the sequence seperated by commas
+```
+function rgb(r, g, b) {
+// Ensure that the input values are within the valid range
+r = Math.min(255, Math.max(0, r));
+g = Math.min(255, Math.max(0, g));
+b = Math.min(255, Math.max(0, b));
+
+// Convert the valid RGB values into their hexadecimal
+ representationand convert to uppercase
+const rHex = r.toString(16).padStart(2, '0').toUpperCase();
+const gHex = g.toString(16).padStart(2, '0').toUpperCase();
+const bHex = b.toString(16).padStart(2, '0').toUpperCase();
+
+// Combine the hexadecimal values
+ return rHex + gHex + bHex;
 ```
 ## **Education**
 * Baranovichi State University
